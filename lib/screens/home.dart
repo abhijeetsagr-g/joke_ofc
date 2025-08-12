@@ -75,6 +75,7 @@ class _HomeState extends State<Home> {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 20,
+                    fontFamily: "Chewy",
                     fontWeight: FontWeight.w500,
                     color: Colors.grey[800],
                     height: 1.4,
@@ -98,7 +99,10 @@ class _HomeState extends State<Home> {
                         });
                       },
                     ),
-                    Text("Jokes for kids"),
+                    Text(
+                      "Jokes for kids",
+                      style: TextStyle(fontFamily: "Chewy"),
+                    ),
                   ],
                 ),
                 Column(
@@ -116,6 +120,7 @@ class _HomeState extends State<Home> {
                     Text(
                       "Jokes for kids who knows \n how to make kids",
                       textAlign: TextAlign.center,
+                      style: TextStyle(fontFamily: "Chewy"),
                     ),
                   ],
                 ),
